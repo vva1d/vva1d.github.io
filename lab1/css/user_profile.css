@@ -1,0 +1,153 @@
+body {
+  background-image: url("../images/background4.jfif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+}
+
+header {
+  background-color: #000000;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.nav-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+}
+
+.nav-list li {
+  display: inline;
+}
+
+.nav-list a {
+  color: #40c2cd;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  font-style: italic;
+  padding: 10px 15px;
+  transition: 0.6s ease-in-out;
+}
+
+
+.nav-list a:hover {
+  background-color: #657cc5;
+  border-radius: 50px;
+}
+
+main {
+  padding: 20px;
+}
+
+div h2{
+  background-color: #252424;
+  color: #40c2cd;
+  border-radius: 10px;
+  width: 160px;
+  padding-left: 10px;
+  box-shadow: 7px 7px #1e6b73;
+}
+
+.user-info_h{
+  background-color: #252424;
+  color: #40c2cd;
+  border-radius: 10px;
+  width: 160px;
+  padding-left: 10px;
+  box-shadow: 7px 7px #1e6b73;
+}
+.user-info{
+  color: white;
+  background-color: rgba(94, 94, 94, 0.85);
+  border: 5px solid #40c2cd;
+  border-radius: 5px;
+  width: 700px;
+  height: auto;
+  padding: 20px;
+}
+
+.purchase-history_h{
+  background-color: #252424;
+  color: #40c2cd;
+  border-radius: 10px;
+  width: 160px;
+  padding-left: 10px;
+  box-shadow: 7px 7px #1e6b73;
+}
+.purchase-history_block {
+  background-color: rgba(94, 94, 94, 0.85);
+  border: 5px solid #40c2cd;
+  border-radius: 5px;
+  width: 700px;
+  height: auto;
+}
+
+.purchase-history_block li{
+  color: black;
+}
+
+.purchase-history_block a{
+  color: white;
+}
+
+.purchase-history_block a:hover {
+  color: #40c2cd;
+font-weight: bolder;
+}
+
+.wishlist_h{
+  background-color: #252424;
+  color: #40c2cd;
+  border-radius: 10px;
+  width: 160px;
+  padding-left: 10px;
+  box-shadow: 7px 7px #1e6b73;
+}
+
+.wishlist-grid{
+  background-color: rgba(94, 94, 94, 0.85);
+  border: 5px solid #40c2cd;
+  border-radius: 5px;
+  width: 700px;
+  height: auto;
+}
+
+.wishlist-grid li{
+  color: white;
+}
+
+.wishlist-grid a{
+  color: white;
+}
+
+.wishlist-grid a:hover{
+  color: #40c2cd;
+  font-weight: bolder;
+}
+
+@media (max-width: 768px) {
+  .nav-list {
+    flex-direction: column;
+    text-align: center;
+  }
+}
+
+.footer {
+  background-color: #000000;
+  color: #40c2cd;
+  text-align: center;
+  padding: 10px;
+  margin-top: 20%;
+  bottom: 0;
+}

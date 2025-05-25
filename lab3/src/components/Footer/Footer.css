@@ -1,0 +1,14 @@
+footer {
+    background-color: #000000;
+    color: #40c2cd;
+    text-align: center;
+    padding: 10px;
+    margin-top: 20%;
+    bottom: 0;
+}
+
+@media (max-width: 768px) {
+    footer {
+        margin-top: 10%; /* Зменшений відступ для мобільних */
+    }
+}

@@ -1,24 +1,34 @@
-import logo from './other/logo.svg';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import { BasketProvider } from './context/Basket_context';
+import About_us from './pages/About_us';
+import Basket from './pages/Basket';
+import Discounts from './pages/Discounts';
+import Products from './pages/Products';
+import User_profile from './pages/User_profile';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+      <BasketProvider>
+        <Router>
+          <div className="App">
+            <Header />
+            <main>
+              <Routes>
+                <Route path="/about-us" element={<About_us />} />
+                <Route path="/basket" element={<Basket />} />
+                <Route path="/discounts" element={<Discounts />} />
+                <Route path="/products" element={<Products />} />
+                <Route path="/user-profile" element={<User_profile />} />
+                <Route path="/" element={<Products />} />
+              </Routes>
+            </main>
+            <Footer />
+          </div>
+        </Router>
+      </BasketProvider>
   );
 }
 

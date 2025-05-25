@@ -1,0 +1,20 @@
+.products-page {
+    max-width: 1200px;
+    margin: 20px auto;
+    padding: 20px;
+}
+
+.filters {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.filters select {
+    padding: 5px;
+    border-radius: 5px;
+    border: 2px solid #40c2cd;
+    background-color: #252424;
+    color: white;
+}

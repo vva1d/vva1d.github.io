@@ -1,4 +1,4 @@
-footer {
+.footer {
     background-color: #000000;
     color: #40c2cd;
     text-align: center;
@@ -8,7 +8,7 @@ footer {
 }
 
 @media (max-width: 768px) {
-    footer {
-        margin-top: 10%; /* Зменшений відступ для мобільних */
+    .footer {
+        margin-top: 10%;
     }
 }

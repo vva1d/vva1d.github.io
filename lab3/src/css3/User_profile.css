@@ -1,8 +1,85 @@
-.user-profile {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
-    background-color: #40444b;
+div h2{
+    background-color: #252424;
+    color: #40c2cd;
+    border-radius: 10px;
+    width: 160px;
+    padding-left: 10px;
+    box-shadow: 7px 7px #1e6b73;
+}
+
+.user-info_h{
+    background-color: #252424;
+    color: #40c2cd;
+    border-radius: 10px;
+    width: 160px;
+    padding-left: 10px;
+    box-shadow: 7px 7px #1e6b73;
+}
+.user-info{
     color: white;
-    border-radius: 8px;
+    background-color: rgba(94, 94, 94, 0.85);
+    border: 5px solid #40c2cd;
+    border-radius: 5px;
+    width: 700px;
+    height: auto;
+    padding: 20px;
+}
+
+.purchase-history_h{
+    background-color: #252424;
+    color: #40c2cd;
+    border-radius: 10px;
+    width: 160px;
+    padding-left: 10px;
+    box-shadow: 7px 7px #1e6b73;
+}
+.purchase-history_block {
+    background-color: rgba(94, 94, 94, 0.85);
+    border: 5px solid #40c2cd;
+    border-radius: 5px;
+    width: 700px;
+    height: auto;
+}
+
+.purchase-history_block li{
+    color: black;
+}
+
+.purchase-history_block a{
+    color: white;
+}
+
+.purchase-history_block a:hover {
+    color: #40c2cd;
+    font-weight: bolder;
+}
+
+.wishlist_h{
+    background-color: #252424;
+    color: #40c2cd;
+    border-radius: 10px;
+    width: 160px;
+    padding-left: 10px;
+    box-shadow: 7px 7px #1e6b73;
+}
+
+.wishlist-grid{
+    background-color: rgba(94, 94, 94, 0.85);
+    border: 5px solid #40c2cd;
+    border-radius: 5px;
+    width: 700px;
+    height: auto;
+}
+
+.wishlist-grid li{
+    color: white;
+}
+
+.wishlist-grid a{
+    color: white;
+}
+
+.wishlist-grid a:hover{
+    color: #40c2cd;
+    font-weight: bolder;
 }

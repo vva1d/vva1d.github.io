@@ -10,7 +10,7 @@
     margin: 0;
     display: flex;
     justify-content: center;
-    gap: 30px;
+    gap: 30px; /* Збережено з discounts.css */
 }
 
 .nav-list li {
@@ -45,6 +45,7 @@
 @media (max-width: 768px) {
     .nav-list {
         flex-direction: column;
-        gap: 10px;
+        gap: 10px; /* Адаптовано для менших екранів */
+        text-align: center; /* Додано з попередньої версії */
     }
 }

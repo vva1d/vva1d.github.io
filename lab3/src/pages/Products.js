@@ -1,6 +1,7 @@
 import { useState, useEffect, useContext } from 'react';
 import { BasketContext } from '../context/Basket_context';
 import Product_card from '../components/Product_card/Product_card';
+import '../css3/Products.css'
 
 function Products() {
     const [products, setProducts] = useState([]);
@@ -31,18 +32,24 @@ function Products() {
 
     return (
         <div className="products-page">
-            <h1>Продукти</h1>
+            <h1>Перелік товарів</h1>
             <div className="filters">
-                <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
-                    <option value="none">За замовчуванням</option>
-                    <option value="price-asc">Ціна: від низької</option>
-                    <option value="price-desc">Ціна: від високої</option>
-                </select>
-                <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
-                    <option value="none">За замовчуванням</option>
-                    <option value="rating-asc">Рейтинг: від низького</option>
-                    <option value="rating-desc">Рейтинг: від високого</option>
-                </select>
+                <div className="filter-group">
+                    <label>Сортувати за ціною:</label>
+                    <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
+                        <option value="none">За замовчуванням</option>
+                        <option value="price-asc">Ціна: від низької</option>
+                        <option value="price-desc">Ціна: від високої</option>
+                    </select>
+                </div>
+                <div className="filter-group">
+                    <label>Сортувати за рейтингом:</label>
+                    <select value={sortBy} onChange={(e) => setSortBy(e.target.value)}>
+                        <option value="none">За замовчуванням</option>
+                        <option value="rating-asc">Рейтинг: від низького</option>
+                        <option value="rating-desc">Рейтинг: від високого</option>
+                    </select>
+                </div>
             </div>
             <div className="product-grid">
                 {sortedProducts.map((product, index) => (

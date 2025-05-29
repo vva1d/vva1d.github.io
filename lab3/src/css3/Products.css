@@ -1,14 +1,42 @@
 .products-page {
-    max-width: 1200px;
-    margin: 20px auto;
-    padding: 20px;
+    padding-top: 20px;
+    padding-left: 20px;
+    padding-right: 60px;
+}
+
+.products-page h1 {
+    background-color: #252424;
+    color: #40c2cd;
+    font-style: italic;
+    border-radius: 10px;
+    width: 280px;
+    padding-left: 10px;
+    box-shadow: 7px 7px #1e6b73;
 }
 
 .filters {
     display: flex;
     gap: 20px;
-    justify-content: center;
     margin-bottom: 20px;
+    align-items: flex-start; /* Вирівнювання міток і селектів по верхньому краю */
+}
+
+.filter-group {
+    display: flex;
+    flex-direction: column;
+    gap: 5px; /* Відступ між міткою і селектом */
+}
+
+.filters label {
+    background-color: #252424;
+    color: #40c2cd;
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 5px;
+    box-shadow: 5px 5px #1e6b73;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
 }
 
 .filters select {
@@ -17,4 +45,29 @@
     border: 2px solid #40c2cd;
     background-color: #252424;
     color: white;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    column-gap: 50px;
+    row-gap: 30px;
+    padding: 5px;
+    margin-top: 20px;
+    text-align: center;
+    width: 100%;
+    margin: 0 auto;
+}
+
+@media (max-width: 768px) {
+    .product-page {
+        padding-right: 20px; /* Зменшуємо правый отступ на мобільних пристроях */
+    }
+    .product-grid {
+        grid-template-columns: 1fr;
+    }
+    .filters {
+        flex-direction: column; /* Селекти один під одним на малих екранах */
+        gap: 10px;
+    }
 }

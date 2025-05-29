@@ -7,7 +7,6 @@ function BasketPage() {
 
     return (
         <div className="basket-page">
-            <h1>Кошик</h1>
             <Basket />
         </div>
     );

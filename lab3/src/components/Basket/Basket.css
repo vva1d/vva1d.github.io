@@ -1,16 +1,27 @@
 .basket {
-    max-width: 900px;
-    margin: 20px auto;
-    padding: 20px;
+    margin-top: 40px;
     background-color: rgba(94, 94, 94, 0.85);
     border: 5px solid #40c2cd;
     border-radius: 5px;
+    padding: 20px;
     color: white;
+    font-weight: bold;
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    min-height: 100px;
 }
 
 .basket h2 {
+    background-color: #252424;
+    color: #40c2cd;
+    border-radius: 10px;
+    width: 160px;
+    padding-left: 10px;
+    box-shadow: 7px 7px #1e6b73;
+    margin: 0 auto 20px;
     text-align: center;
-    margin-bottom: 20px;
 }
 
 .basket ul {
@@ -20,42 +31,98 @@
 
 .basket li {
     margin-bottom: 10px;
-    padding-bottom: 10px;
     border-bottom: 1px solid #40c2cd;
+    padding-bottom: 10px;
+}
+
+.cart-item {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 10px;
 }
 
-.basket input {
+.cart-item-name {
+    flex: 8;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    color: white;
+    font-size: 1em;
+}
+
+.basket .quantity-input {
+    flex: 1;
     width: 60px;
     padding: 5px;
     border-radius: 5px;
-    border: 2px solid #40c2cd;
+    border: 3px solid #40c2cd;
     background-color: #252424;
     color: white;
     text-align: center;
+    box-sizing: border-box;
 }
 
-.basket button {
-    background-color: #f80e0e;
+.cart-item-total {
+    flex: 1;
     color: white;
+    font-size: 1em;
+}
+
+.basket .remove-item {
+    flex: 1;
+    background-color: #f80e0e;
+    color: #fff;
     border: none;
     padding: 5px 10px;
     border-radius: 5px;
     cursor: pointer;
+    box-sizing: border-box;
+    font-size: 0.9em;
+    text-align: center;
 }
 
-.basket button:hover {
+.basket .remove-item:hover {
     background-color: #c00;
+}
+
+.basket p:last-child {
+    background-color: #252424;
+    border-radius: 10px;
+    font-size: 1.2em;
+    color: #40c2cd;
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+}
+
+.basket p {
+    background-color: #252424;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
 }
 
 @media (max-width: 768px) {
     .basket {
         width: 100%;
     }
-    .basket li {
-        flex-direction: column;
-        gap: 10px;
+
+    .cart-item {
+        flex-wrap: wrap;
+    }
+
+    .cart-item-name {
+        flex: 1 1 100%;
+        margin-bottom: 10px;
+    }
+
+    .quantity-input,
+    .cart-item-total,
+    .remove-item {
+        flex: 1 1 30%;
     }
 }

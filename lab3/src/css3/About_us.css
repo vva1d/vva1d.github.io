@@ -2,7 +2,46 @@
     max-width: 1200px;
     margin: 20px auto;
     padding: 20px;
-    background-color: #40444b;
+    background-color: #40444b; /* Змінено для темної теми */
     color: white;
     border-radius: 8px;
+}
+
+.about-us h2 {
+    background-color: #252424;
+    color: #40c2cd;
+    border-radius: 10px;
+    width: 260px;
+    padding-left: 10px;
+    box-shadow: 7px 7px #1e6b73;
+    margin: 0 auto 20px;
+    text-align: center;
+}
+
+.about-us .info-block {
+    background-color: rgba(94, 94, 94, 0.85);
+    border: 5px solid #40c2cd;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.about-us .why-we-block {
+    background-color: rgba(94, 94, 94, 0.85);
+    border: 5px solid #40c2cd;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+}
+
+.about-us .final-block {
+    background-color: rgba(94, 94, 94, 0.85);
+    border: 5px solid #40c2cd;
+    border-radius: 5px;
+    padding: 20px;
+    color: white;
+    font-size: 20px;
+    margin-top: 20px;
 }

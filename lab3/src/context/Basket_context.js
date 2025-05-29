@@ -10,16 +10,13 @@ export function BasketProvider({ children }) {
     }, [cart]);
 
     const addToCart = (product) => {
-        const existingItem = cart.find((item) => item.name === product.name);
-        if (existingItem) {
-            setCart(
-                cart.map((item) =>
-                    item.name === product.name ? { ...item, quantity: item.quantity + 1 } : item
-                )
-            );
-        } else {
-            setCart([...cart, { ...product, quantity: 1 }]);
-        }
+        setCart((prevCart) => {
+            const productToAdd = { ...product, quantity: 1 };
+            if (product.discountPrice) {
+                productToAdd.price = product.discountPrice; // Замінюємо price на discountPrice, якщо є
+            }
+            return [...prevCart, productToAdd];
+        });
     };
 
     const updateQuantity = (index, newQuantity) => {

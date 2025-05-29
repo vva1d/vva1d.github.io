@@ -3,7 +3,7 @@ import './Footer.css';
 function Footer() {
     return (
         <footer className="footer">
-            <p>© 2025 Твій Магазин</p>
+            <p>Контактна інформація: HealthyStore@gmail.com | Телефон: +380 123 456 789</p>
         </footer>
     );
 }

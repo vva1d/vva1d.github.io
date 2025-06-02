@@ -1,0 +1,138 @@
+[
+  {
+    "name": "100% 2Whey Gold Standard - Optimum Nutrition",
+    "price": 500,
+    "discountPrice": null,
+    "availability": "Не в наявності",
+    "rating": 4,
+    "image": "protein2.webp"
+  },
+  {
+    "name": "100% 3Whey Gold Standard - Optimum Nutrition",
+    "price": 500,
+    "discountPrice": null,
+    "availability": "Не в наявності",
+    "rating": 4,
+    "image": "protein2.webp"
+  },
+  {
+    "name": "100% 4Whey Gold Standard - Optimum Nutrition",
+    "price": 500,
+    "discountPrice": null,
+    "availability": "В наявності",
+    "rating": 4,
+    "image": "protein2.webp"
+  },
+  {
+    "name": "100% 5Whey Gold Standard - Optimum Nutrition",
+    "price": 500,
+    "discountPrice": null,
+    "availability": "В наявності",
+    "rating": 4,
+    "image": "protein2.webp"
+  },
+  {
+    "name": "100% 6Whey Gold Standard - Optimum Nutrition",
+    "price": 500,
+    "discountPrice": null,
+    "availability": "В наявності",
+    "rating": 4,
+    "image": "protein2.webp"
+  },
+  {
+    "name": "100% 7Whey Gold Standard - Optimum Nutrition",
+    "price": 500,
+    "discountPrice": null,
+    "availability": "В наявності",
+    "rating": 4,
+    "image": "protein2.webp"
+  },
+  {
+    "name": "100% 8Whey Gold Standard - Optimum Nutrition",
+    "price": 500,
+    "discountPrice": null,
+    "availability": "В наявності",
+    "rating": 4,
+    "image": "protein2.webp"
+  },
+  {
+    "name": "new100% 8Whey Gold Standard - Optimum Nutrition",
+    "price": 499,
+    "discountPrice": null,
+    "availability": "В наявності",
+    "rating": 3,
+    "image": "protein2.webp"
+  },
+  {
+    "name": "100% 9Whey Gold Standard - Optimum Nutrition",
+    "price": 500,
+    "discountPrice": null,
+    "availability": "В наявності",
+    "rating": 4,
+    "image": "protein2.webp"
+  },
+  {
+    "name": "100% Whey Gold Standard - Optimum Nutrition",
+    "price": 500,
+    "discountPrice": 399,
+    "availability": "В наявності",
+    "rating": 4,
+    "image": "protein2.webp"
+  },
+  {
+    "name": "1Мікронізований креатин у формі порошку - Optimum Nutrition",
+    "price": 700,
+    "discountPrice": 599,
+    "availability": "В наявності",
+    "rating": 5,
+    "image": "creatine2.webp"
+  },
+  {
+    "name": "2Мікронізований креатин у формі порошку - Optimum Nutrition",
+    "price": 700,
+    "discountPrice": 599,
+    "availability": "В наявності",
+    "rating": 5,
+    "image": "creatine2.webp"
+  },
+  {
+    "name": "3Мікронізований креатин у формі порошку - Optimum Nutrition",
+    "price": 700,
+    "discountPrice": 599,
+    "availability": "В наявності",
+    "rating": 5,
+    "image": "creatine2.webp"
+  },
+  {
+    "name": "4Мікронізований креатин у формі порошку - Optimum Nutrition",
+    "price": 700,
+    "discountPrice": 599,
+    "availability": "В наявності",
+    "rating": 5,
+    "image": "creatine2.webp"
+  },
+  {
+    "name": "5Мікронізований креатин у формі порошку - Optimum Nutrition",
+    "price": 700,
+    "discountPrice": 599,
+    "availability": "В наявності",
+    "rating": 5,
+    "image": "creatine2.webp"
+  },
+  {
+    "name": "6Мікронізований креатин у формі порошку - Optimum Nutrition",
+    "price": 700,
+    "discountPrice": 599,
+    "availability": "В наявності",
+    "rating": 5,
+    "image": "creatine2.webp"
+  },
+  {
+    "name": "7Мікронізований креатин у формі порошку - Optimum Nutrition",
+    "price": 700,
+    "discountPrice": 599,
+    "availability": "В наявності",
+    "rating": 5,
+    "image": "creatine2.webp"
+  }
+]

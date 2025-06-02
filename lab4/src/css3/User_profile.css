@@ -1,0 +1,140 @@
+.user-profile {
+    max-width: 1200px;
+    padding: 20px;
+    background: url('https://example.com/hexagon-background.jpg') repeat; /* Заміни на правильний шлях до фону гексагонів */
+    border: 5px solid #40c2cd;
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+
+.user-profile h2 {
+    background-color: #252424;
+    color: #40c2cd;
+    border-radius: 10px;
+    width: 200px;
+    padding: 10px;
+    box-shadow: 7px 7px #1e6b73;
+    padding-left: 10px;
+}
+
+.user-info_h{
+    font-size: 24px;
+    background-color: #252424;
+    color: #40c2cd;
+    border-radius: 10px;
+    width: 240px;
+    box-shadow: 7px 7px #1e6b73;
+    padding-left: 10px;
+}
+
+.wishlist_h {
+    font-size: 24px;
+    background-color: #252424;
+    color: #40c2cd;
+    border-radius: 10px;
+    width: 240px;
+    padding-left: 10px;
+    box-shadow: 7px 7px #1e6b73;
+}
+
+.profile-info,
+.wishlist {
+    margin-bottom: 30px;
+    position: relative;
+    z-index: 1;
+}
+
+.user-info-card {
+    background-color: rgba(51, 51, 51, 0.9);
+    border: 5px solid #40c2cd;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 400px;
+}
+
+.user-info-card p {
+    text-align: left;
+    font-size: 1.1em;
+}
+
+.wishlist-grid ul {
+    list-style: none;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.wishlist-item {
+    background-color: rgba(51, 51, 51, 0.9);
+    border: 2px solid #40c2cd;
+    border-radius: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    box-shadow: 5px 5px #1e6b73;
+}
+
+.wishlist-item span {
+    margin-bottom: 10px;
+    font-size: 1.1em;
+}
+
+.wishlist-buttons {
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+
+.cart-button,
+.delete-button,
+.logout-button {
+    padding: 8px 15px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s, transform 0.2s;
+    font-size: 0.9em;
+}
+
+.cart-button {
+    background-color: #40c2cd;
+    color: white;
+}
+
+.cart-button:hover {
+    background-color: #657cc5;
+    transform: scale(1.05);
+}
+
+.delete-button {
+    background-color: red;
+    color: white;
+}
+
+.delete-button:hover {
+    background-color: #d00c0c;
+    transform: scale(1.05);
+}
+
+.logout-button {
+    background-color: red;
+    color: white;
+    padding: 10px 20px;
+    margin-top: 20px;
+    width: 150px;
+}
+
+.logout-button:hover {
+    background-color: #d00c0c;
+    transform: scale(1.05);
+}
+
+.logout-section {
+    text-align: center;
+    margin-top: 20px;
+}
